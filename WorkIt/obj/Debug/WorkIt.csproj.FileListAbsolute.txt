@@ -1,0 +1,58 @@
+E:\WorkIt\WorkIt\obj\Debug\WorkIt.csprojResolveAssemblyReference.cache
+E:\WorkIt\WorkIt\obj\Debug\View\MainWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\AddMemberWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\ClassWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\MarketingWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\MembersWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\TrainersWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\MainWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\AddMemberWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\ClassWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\MarketingWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\MembersWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\TrainersWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\App.g.cs
+E:\WorkIt\WorkIt\obj\Debug\WorkIt_Content.g.cs
+E:\WorkIt\WorkIt\obj\Debug\WorkIt_MarkupCompile.cache
+E:\WorkIt\WorkIt\obj\Debug\WorkIt.g.resources
+E:\WorkIt\WorkIt\obj\Debug\WorkIt.Properties.Resources.resources
+E:\WorkIt\WorkIt\obj\Debug\WorkIt.csproj.GenerateResource.Cache
+E:\WorkIt\WorkIt\bin\Debug\Database.mdf
+E:\WorkIt\WorkIt\bin\Debug\Database_log.ldf
+E:\WorkIt\WorkIt\bin\Debug\WorkIt.exe
+E:\WorkIt\WorkIt\bin\Debug\WorkIt.pdb
+E:\WorkIt\WorkIt\obj\Debug\WorkIt.exe
+E:\WorkIt\WorkIt\obj\Debug\WorkIt.pdb
+E:\WorkIt\WorkIt\bin\Debug\WorkIt.exe.config
+E:\WorkIt\WorkIt\bin\Debug\bin\Debug\Database_log.ldf
+E:\WorkIt\WorkIt\bin\Debug\bin\Debug\Database.mdf
+E:\New folder\WorkIt\WorkIt\bin\Debug\WorkIt.exe.config
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.exe
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.pdb
+E:\New folder\WorkIt\WorkIt\bin\Debug\bin\Debug\Database_log.ldf
+E:\New folder\WorkIt\WorkIt\bin\Debug\Database.mdf
+E:\New folder\WorkIt\WorkIt\bin\Debug\Database_log.ldf
+E:\New folder\WorkIt\WorkIt\bin\Debug\bin\Debug\Database.mdf
+E:\New folder\WorkIt\WorkIt\bin\Debug\WorkIt.exe
+E:\New folder\WorkIt\WorkIt\bin\Debug\WorkIt.pdb
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.csprojResolveAssemblyReference.cache
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\MainWindow.baml
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\AddMemberWindow.baml
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\ClassWindow.baml
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\MarketingWindow.baml
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\MembersWindow.baml
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\TrainersWindow.baml
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\MainWindow.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\AddMemberWindow.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\ClassWindow.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\MarketingWindow.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\MembersWindow.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\View\Windows\TrainersWindow.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\App.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt_Content.g.cs
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt_MarkupCompile.cache
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.g.resources
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.Properties.Resources.resources
+E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.csproj.GenerateResource.Cache
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\Training_Programs.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\Training_Programs.g.cs

@@ -1,0 +1,12 @@
+﻿<Window x:Class="WorkIt.View.Windows.Training_Programs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Training_Programs" Height="150" Width="200">
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="Capture.JPG"/>
+        </StackPanel.Background>
+        <Button Content="Add Program"  Height="50" Width="100" Margin="2" Click="addProgram_btn_click"/>
+        <Button Content="Add Exercise"  Height="50" Width="100" Margin="2" Click="dddExercise_btn_click"/>
+    </StackPanel>
+</Window>
