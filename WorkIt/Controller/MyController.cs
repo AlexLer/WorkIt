@@ -71,5 +71,8 @@ namespace WorkIt.Controller
             }
 
         }
+        public void Test(){
+            cosnole.writeln("Hi Alex");
+        }
     }
 }
