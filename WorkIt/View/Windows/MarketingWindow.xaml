@@ -9,7 +9,7 @@
         <Button Height="40" Width="130" Margin="3">
             <TextBlock>Create<LineBreak/>distribution list</TextBlock>
         </Button>
-        <Button Content="Send mail to list" Height="40" Width="130" Margin="3"/>
+        <Button Content="Send mail to list" Height="40" Width="130" Margin="3" Click="Send_btn_Click"/>
         <Button Content="Add member to list" Height="40" Width="130" Margin="3"/>
         <Button Height="40" Width="130" Margin="3">
             <TextBlock>Remove member<LineBreak/>from list</TextBlock>

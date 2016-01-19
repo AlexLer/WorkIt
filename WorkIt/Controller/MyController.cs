@@ -33,8 +33,18 @@ namespace WorkIt.Controller
             Dictionary<string, ICommand> commands = new Dictionary<string, ICommand>();
             commands["AddMember"] = new AddMember(m_view, m_model);
             commands["ClassList"] = new ClassList(m_view, m_model);
+            commands["GetDistributonList"] = new GetDistributonList(m_view, m_model);
 
             return commands;
+        }
+
+        public void CheckChanges(int x)
+        {
+            if (x == -1)
+            {
+                m_view.Output("Error occured: Member already exists");
+            }
+            else m_view.Output("Member added successfully"); 
         }
 
         public void Output(string s)
@@ -42,8 +52,12 @@ namespace WorkIt.Controller
             m_view.Output(s);
         }
 
+        public string[] getArgs()
+        {
+            return m_view.getArgs();
+        }
 
-        public void table(DataSet ds, string s)
+        public void table(DataSet ds, string s, string class_desc, string trainer)
         {
             int maxRows = 0;
             try
@@ -65,7 +79,7 @@ namespace WorkIt.Controller
             {
                 string names = "Name:\n";
                 string IDs = "ID:\n";
-                string header = s;
+                string header = s + "Description: q" + class_desc + "\n" + "Trainer name: " + trainer;
                 DataRow dRow;
                 for (int i = 0; i < maxRows; i++)
                 {

@@ -26,6 +26,12 @@ namespace WorkIt.View
         private Dictionary<string, ICommand> m_commands;
         private IController m_controller;
 
+        public MembersWindow wMembers;
+        public TrainersWindow wTrainers;
+        public ClassWindow wClasses;
+        public MarketingWindow wMarketing;
+        public Training_Programs wPrograms;
+
         public MainWindow(IController controller)
         {
             InitializeComponent();
@@ -34,43 +40,47 @@ namespace WorkIt.View
 
         public void Start()
         {
-            //Console.WriteLine(Directory.GetCurrentDirectory()); 
             this.Show();
         }
 
         private void memeber_btn_click(object sender, RoutedEventArgs e)
         {
-            MembersWindow mw = new MembersWindow(m_commands);
-            mw.ShowDialog();
+            wMembers = new MembersWindow(m_commands);
+            wMembers.ShowDialog();
         }
 
         private void trainer_btn_click(object sender, RoutedEventArgs e)
         {
-            TrainersWindow tw = new TrainersWindow();
-            tw.ShowDialog();
+            wTrainers = new TrainersWindow();
+            wTrainers.ShowDialog();
         }
 
         private void class_btn_click(object sender, RoutedEventArgs e)
         {
-            ClassWindow cw = new ClassWindow(m_commands);
-            cw.ShowDialog();
+            wClasses = new ClassWindow(m_commands);
+            wClasses.ShowDialog();
         }
 
         private void marketing_btn_click(object sender, RoutedEventArgs e)
         {
-            MarketingWindow maw = new MarketingWindow();
-            maw.ShowDialog();
+            wMarketing = new MarketingWindow(m_commands);
+            wMarketing.ShowDialog();
         }
 
         private void program_btn_click(object sender, RoutedEventArgs e)
         {
-            Training_Programs tp = new Training_Programs();
-            tp.ShowDialog();
+            wPrograms = new Training_Programs();
+            wPrograms.ShowDialog();
         }
 
         public void SetCommands(Dictionary<string, ICommand> commands)
         {
             m_commands = commands;
+        }
+
+        public string[] getArgs()
+        {
+            return wClasses.pw.args;
         }
 
         public void Output(string s)
@@ -81,12 +91,16 @@ namespace WorkIt.View
         public void OutputWindow(string header, string names, string IDs)
         {
             OutputWindow o = new OutputWindow();
-            o.header.Content = header;
+            o.header.Text = header;
             o.Names.Text = names;
             o.IDs.Text = IDs;
             o.Show();
         }
 
+        public void SetDistributionList(List<string> list)
+        {
+            wMarketing.dlw.SetDistributionList(list);
+        }
         
     }
 }

@@ -5,7 +5,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="30"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -18,6 +18,15 @@
         <Label Grid.ColumnSpan="3" FontSize="20">Generate class participants list:</Label>
         <Label Grid.Row="1">Class Name:</Label>
         <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Name="class_block" BorderBrush="Gray" Height="30" VerticalAlignment="Top"/>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <Label Content="Date:"/>
+            <ComboBox Name="date" Grid.Row="2" Grid.Column="1" Width="80" Height="25"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="2">
+            <Label Content="Time:"/>
+            <ComboBox Name="time" Grid.Row="2" Grid.Column="2" Width="80" Height="25"/>
+        </StackPanel>
+        
         <Button Content="Show" Grid.Row="3" Grid.Column="1" Click="show_btn_click" Width="80" Height="30" Margin="3"/>
         <Button Content="Send" Grid.Row="3" Grid.Column="2" Click="send_btn_click" Width="80" Height="30" Margin="3"/>
     </Grid>

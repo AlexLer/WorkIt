@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\temp\WorkIt\WorkIt\obj\Debug\
+E:\WorkIt\WorkIt\obj\Debug\
 WorkIt
 none
 false
 DEBUG;TRACE
-E:\temp\WorkIt\WorkIt\App.xaml
-91764178442
+E:\WorkIt\WorkIt\App.xaml
+101801592013
 3962629643
-23-1520039630
+252055715955
 131478842535
-View\MainWindow.xaml;View\Windows\AddMemberWindow.xaml;View\Windows\ClassWindow.xaml;View\Windows\MarketingWindow.xaml;View\Windows\MembersWindow.xaml;View\Windows\OutputWindow.xaml;View\Windows\ParticipantsWindow.xaml;View\Windows\TrainersWindow.xaml;View\Windows\Training_Programs.xaml;
+View\MainWindow.xaml;View\Windows\AddMemberWindow.xaml;View\Windows\ClassWindow.xaml;View\Windows\DistributionListWindow.xaml;View\Windows\MarketingWindow.xaml;View\Windows\MembersWindow.xaml;View\Windows\OutputWindow.xaml;View\Windows\ParticipantsWindow.xaml;View\Windows\TrainersWindow.xaml;View\Windows\Training_Programs.xaml;
 
 False
 

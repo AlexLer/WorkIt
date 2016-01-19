@@ -16,7 +16,11 @@ namespace WorkIt.Controller
         void SetView(IView view);
         Dictionary<string, ICommand> GetCommands();
 
-        void table(DataSet ds, string s);
+        void CheckChanges(int x);
+
+        void table(DataSet ds, string s, string class_desc, string trainer);
+
+        string[] getArgs();
 
         void Output(string s);
     }

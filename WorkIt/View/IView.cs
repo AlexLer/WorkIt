@@ -11,8 +11,10 @@ namespace WorkIt.View
     {
         void Start();
         void SetCommands(Dictionary<string, ICommand> commands);
+        string[] getArgs();
         void Output(string s);
-
         void OutputWindow(string header, string names, string IDs);
+
+        void SetDistributionList(List<string> lists);
     }
 }

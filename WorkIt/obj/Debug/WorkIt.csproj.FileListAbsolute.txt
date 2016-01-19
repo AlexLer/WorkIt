@@ -92,3 +92,7 @@ E:\temp\WorkIt\WorkIt\obj\Debug\WorkIt.Properties.Resources.resources
 E:\temp\WorkIt\WorkIt\obj\Debug\WorkIt.csproj.GenerateResource.Cache
 E:\temp\WorkIt\WorkIt\obj\Debug\View\Windows\OutputWindow.baml
 E:\temp\WorkIt\WorkIt\obj\Debug\View\Windows\OutputWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\OutputWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\OutputWindow.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\DistributionListWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\DistributionListWindow.g.cs

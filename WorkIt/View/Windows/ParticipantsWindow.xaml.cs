@@ -30,20 +30,35 @@ namespace WorkIt.View.Windows
             InitializeComponent();
             class_name = "";
             m_commands = commands;
+            for (int i = 0 ; i < 30; i ++){
+                ComboBoxItem b = new ComboBoxItem();
+                b.Content = i + 1;
+                date.Items.Add(b);
+            }
+
+            for (int i = 14; i < 23; i++)
+            {
+                ComboBoxItem b = new ComboBoxItem();
+                b.Content = i + ":00:00";
+                time.Items.Add(b);
+            }
         }
 
         private void show_btn_click(object sender, RoutedEventArgs e)
         {
+            string t = time.Text;
+            string d = date.Text;
             class_name = class_block.Text;
-            if (class_name.Length > 0)
+            if (class_name.Length > 0 && t.Length > 0 && d.Length > 0)
             {
+                args = new string[] { t, d };
                 m_commands["ClassList"].DoCommand(new string[] { class_name });
             }
         }
 
         private void send_btn_click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
 
 

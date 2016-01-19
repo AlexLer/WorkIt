@@ -10,5 +10,7 @@ namespace WorkIt.Model
     {
         void AddMember(string[] args);
         void CheckClass(string args);
+
+        List<string> GetDistributionList();
     }
 }

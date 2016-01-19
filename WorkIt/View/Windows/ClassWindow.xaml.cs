@@ -23,6 +23,7 @@ namespace WorkIt.View.Windows
 
         public string[] args;
         private Dictionary<string, ICommand> m_commands;
+        public ParticipantsWindow pw;
 
         public ClassWindow(Dictionary<string, ICommand> commands)
         {
@@ -32,7 +33,7 @@ namespace WorkIt.View.Windows
 
         private void program_btn_click(object sender, RoutedEventArgs e)
         {
-            ParticipantsWindow pw = new ParticipantsWindow(m_commands);
+            pw = new ParticipantsWindow(m_commands);
             pw.ShowDialog();
         }
     }

@@ -72,6 +72,7 @@
     <Compile Include="Controller\Commands\ACommand.cs" />
     <Compile Include="Controller\Commands\AddMember.cs" />
     <Compile Include="Controller\Commands\ClassList.cs" />
+    <Compile Include="Controller\Commands\GetDistributonList.cs" />
     <Compile Include="Controller\Commands\ICommand.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\MyController.cs" />
@@ -83,6 +84,9 @@
     </Compile>
     <Compile Include="View\Windows\ClassWindow.xaml.cs">
       <DependentUpon>ClassWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\DistributionListWindow.xaml.cs">
+      <DependentUpon>DistributionListWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Windows\MarketingWindow.xaml.cs">
       <DependentUpon>MarketingWindow.xaml</DependentUpon>
@@ -120,6 +124,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Windows\ClassWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\DistributionListWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,6 +182,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="View\Windows\vi+.jpg" />
     <Resource Include="View\Windows\Capture.JPG" />
     <None Include="View\Capture.JPG" />
     <None Include="bin\Debug\Database.mdf">

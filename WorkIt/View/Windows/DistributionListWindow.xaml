@@ -1,0 +1,39 @@
+﻿<Window x:Class="WorkIt.View.Windows.DistributionListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DistributionListWindow" Height="300" Width="500">
+    <DockPanel>
+        <DockPanel.Background>
+            <ImageBrush ImageSource="vi+.jpg" />
+        </DockPanel.Background>
+        <Grid DockPanel.Dock="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Title: " Grid.Row="2" Height="27"/>
+            <TextBox Name="title" Height="30" Width="300" Grid.Row="3"/>
+            <ScrollViewer Height="100" Background="White" Grid.Row="4" Grid.RowSpan="3">
+                <RichTextBox Width="270" Name="body"/>
+            </ScrollViewer>
+        </Grid>
+        <Grid DockPanel.Dock="Right">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition/>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="25"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content=" Distribution list" Grid.Row="2"/>
+            <ComboBox Name="dist_box" Grid.Row="3" Height="25"/>
+            <Button Content="Send" Width="65" Height="25" DockPanel.Dock="Bottom" Click="send_btn_Click" Grid.Row="5"/>
+        </Grid>
+        
+    </DockPanel>
+</Window>
