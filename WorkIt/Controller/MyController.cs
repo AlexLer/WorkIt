@@ -57,7 +57,7 @@ namespace WorkIt.Controller
             {
                 Console.WriteLine(e.Message);
             }
-            
+
             if (maxRows == 0)
             {
                 m_view.Output("Class doesn't exist");
@@ -79,10 +79,6 @@ namespace WorkIt.Controller
 
                 m_view.Output(part_list);
             }
-
-        }
-        public void Test(){
-            cosnole.writeln("Hi Alex");
         }
     }
 }
