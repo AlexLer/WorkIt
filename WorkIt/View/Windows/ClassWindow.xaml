@@ -10,8 +10,8 @@
             <Button Content="Add class" Width="110" Height="40" Margin="3"/>
             <Button Content="Delete class" Width="110" Height="40" Margin="3"/>
             <Button Content="Change details" Width="110" Height="40" Margin="3"/>
-            <Button Content="Class Participants" Width="110" Height="40" Margin="3"/>
-            <Button Width="110" Height="40" Margin="3" Click="program_btn_click">
+            <Button Content="Class Participants" Width="110" Height="40" Margin="3" Click="program_btn_click"/>
+            <Button Width="110" Height="40" Margin="3" >
                 <TextBlock>Generate <LineBreak/>class program</TextBlock>
             </Button>
         </StackPanel>

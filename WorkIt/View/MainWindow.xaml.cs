@@ -52,7 +52,7 @@ namespace WorkIt.View
 
         private void class_btn_click(object sender, RoutedEventArgs e)
         {
-            ClassWindow cw = new ClassWindow();
+            ClassWindow cw = new ClassWindow(m_commands);
             cw.ShowDialog();
         }
 

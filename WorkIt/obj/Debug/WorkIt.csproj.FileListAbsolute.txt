@@ -56,3 +56,5 @@ E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.Properties.Resources.resources
 E:\New folder\WorkIt\WorkIt\obj\Debug\WorkIt.csproj.GenerateResource.Cache
 E:\WorkIt\WorkIt\obj\Debug\View\Windows\Training_Programs.baml
 E:\WorkIt\WorkIt\obj\Debug\View\Windows\Training_Programs.g.cs
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\ParticipantsWindow.baml
+E:\WorkIt\WorkIt\obj\Debug\View\Windows\ParticipantsWindow.g.cs

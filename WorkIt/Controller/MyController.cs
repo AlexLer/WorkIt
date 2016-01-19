@@ -34,6 +34,7 @@ namespace WorkIt.Controller
         {
             Dictionary<string, ICommand> commands = new Dictionary<string, ICommand>();
             commands["AddMember"] = new AddMember(m_view, m_model);
+            commands["ClassList"] = new ClassList(m_view, m_model);
 
             return commands;
         }
@@ -46,7 +47,16 @@ namespace WorkIt.Controller
 
         public void table(DataSet ds)
         {
-            int maxRows = ds.Tables[0].Rows.Count;
+            int maxRows = 0;
+            try
+            {
+                maxRows = ds.Tables[0].Rows.Count;
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             
             if (maxRows == 0)
             {

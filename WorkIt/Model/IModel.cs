@@ -9,5 +9,6 @@ namespace WorkIt.Model
     public interface IModel
     {
         void AddMember(string[] args);
+        void CheckClass(string args);
     }
 }

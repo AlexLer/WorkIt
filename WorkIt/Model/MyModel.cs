@@ -46,10 +46,10 @@ namespace WorkIt.Model
         public void CheckClass(string class_name)
         {
             objConnect = new DatabaseConnection();
-            objConnect.Sql = String.Format("SELECT * FROM Classes WHERE Name = '{0}'", class_name);
+            objConnect.Sql = String.Format("SELECT * FROM Classes WHERE Name = {0}", class_name);
 
             ds = objConnect.GetConnection;
-
+            
             m_contoller.table(ds);
         }
 

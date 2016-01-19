@@ -71,6 +71,7 @@
     </ApplicationDefinition>
     <Compile Include="Controller\Commands\ACommand.cs" />
     <Compile Include="Controller\Commands\AddMember.cs" />
+    <Compile Include="Controller\Commands\ClassList.cs" />
     <Compile Include="Controller\Commands\ICommand.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\MyController.cs" />
@@ -88,6 +89,9 @@
     </Compile>
     <Compile Include="View\Windows\MembersWindow.xaml.cs">
       <DependentUpon>MembersWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\ParticipantsWindow.xaml.cs">
+      <DependentUpon>ParticipantsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Windows\TrainersWindow.xaml.cs">
       <DependentUpon>TrainersWindow.xaml</DependentUpon>
@@ -121,6 +125,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Windows\MembersWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\ParticipantsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
