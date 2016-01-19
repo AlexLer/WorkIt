@@ -90,6 +90,9 @@
     <Compile Include="View\Windows\MembersWindow.xaml.cs">
       <DependentUpon>MembersWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Windows\OutputWindow.xaml.cs">
+      <DependentUpon>OutputWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Windows\ParticipantsWindow.xaml.cs">
       <DependentUpon>ParticipantsWindow.xaml</DependentUpon>
     </Compile>
@@ -125,6 +128,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Windows\MembersWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\OutputWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

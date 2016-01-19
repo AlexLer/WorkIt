@@ -15,8 +15,6 @@ namespace WorkIt.Controller
         private IModel m_model;
         private IView m_view;
 
-        private string part_list;
-
         public void SetModel(IModel model)
         {
             m_model = model;
@@ -45,7 +43,7 @@ namespace WorkIt.Controller
         }
 
 
-        public void table(DataSet ds)
+        public void table(DataSet ds, string s)
         {
             int maxRows = 0;
             try
@@ -65,19 +63,19 @@ namespace WorkIt.Controller
 
             else
             {
-                part_list = "";
+                string names = "Name:\n";
+                string IDs = "ID:\n";
+                string header = s;
                 DataRow dRow;
                 for (int i = 0; i < maxRows; i++)
                 {
-                    dRow = ds.Tables[0].Rows[0];
-                    int j = dRow.ItemArray.Count();
-                    foreach (var item in dRow.ItemArray)
-                    {
-                        part_list = item.ToString() + " ";
-                    }
-                }
 
-                m_view.Output(part_list);
+                    dRow = ds.Tables[0].Rows[i];
+                    names += dRow.ItemArray.GetValue(0) + "\n";
+                    IDs += dRow.ItemArray.GetValue(1) + "\n";
+                }
+                
+                m_view.OutputWindow(header, names, IDs);
             }
         }
     }

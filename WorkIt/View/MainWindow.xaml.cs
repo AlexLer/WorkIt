@@ -78,6 +78,15 @@ namespace WorkIt.View
             MessageBox.Show(s);
         }
 
+        public void OutputWindow(string header, string names, string IDs)
+        {
+            OutputWindow o = new OutputWindow();
+            o.header.Content = header;
+            o.Names.Text = names;
+            o.IDs.Text = IDs;
+            o.Show();
+        }
+
         
     }
 }

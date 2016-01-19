@@ -33,8 +33,6 @@ namespace WorkIt.Model
             objConnect = new DatabaseConnection();
             Console.WriteLine(String.Format("INSERT INTO dbo.Members (Name,ID,Age,Weight,Sex,Address,Phone_NO) VALUES ({0},{1},{2},{3},{4},{5},{6})", args[0], args[1], args[2], args[3], args[4], args[5], args[6]));
             objConnect.Sql = "INSERT INTO dbo.Members (Name,ID,Age,Weight,Sex,Address,Phone_NO) VALUES ('" + args[0] + "','" + args[1] + "','" + args[2] + "','" + args[3] + "','" + args[4] + "','" + args[5] + "','" + args[6] + "')";
-            Console.WriteLine("hehe");
-            //ds = objConnect.GetConnection;
             int x = objConnect.ExecuteSqlCommand();
             if (x == -1)
             {
@@ -46,11 +44,11 @@ namespace WorkIt.Model
         public void CheckClass(string class_name)
         {
             objConnect = new DatabaseConnection();
-            objConnect.Sql = String.Format("SELECT * FROM Classes WHERE Name = {0}", class_name);
+            objConnect.Sql = String.Format("SELECT M.Name, M.ID FROM Members_class MC, Members M WHERE MC.Class_name = '{0}' and MC.Member_ID = M.ID", class_name);
 
             ds = objConnect.GetConnection;
             
-            m_contoller.table(ds);
+            m_contoller.table(ds, String.Format("Participants List for {0}:\n", class_name));
         }
 
 
