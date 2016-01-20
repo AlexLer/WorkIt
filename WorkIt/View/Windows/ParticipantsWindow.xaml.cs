@@ -24,6 +24,7 @@ namespace WorkIt.View.Windows
 
         public string[] args;
         private Dictionary<string, ICommand> m_commands;
+        bool s;
 
         public ParticipantsWindow(Dictionary<string, ICommand> commands)
         {
@@ -42,6 +43,8 @@ namespace WorkIt.View.Windows
                 b.Content = i + ":00:00";
                 time.Items.Add(b);
             }
+
+            s = false;
         }
 
         private void show_btn_click(object sender, RoutedEventArgs e)
@@ -51,6 +54,7 @@ namespace WorkIt.View.Windows
             class_name = class_block.Text;
             if (class_name.Length > 0 && t.Length > 0 && d.Length > 0)
             {
+                s = true;
                 args = new string[] { t, d };
                 m_commands["ClassList"].DoCommand(new string[] { class_name });
             }
@@ -58,7 +62,8 @@ namespace WorkIt.View.Windows
 
         private void send_btn_click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            if (s)
+                this.Close();
         }
 
 
